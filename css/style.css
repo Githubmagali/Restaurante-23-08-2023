@@ -1,0 +1,186 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+*{
+     
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   scroll-padding-top: 2rem;
+   list-style: none;
+   text-decoration: none;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+
+
+/*Header*/
+
+
+header{
+    width: 100%;
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index:1000;
+    background: #e6e4e4;
+    display: flex;
+    justify-content: space-between;
+   padding: 18px 100px;
+   height: 50px;
+   font-size: 30%;
+  
+
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+   
+
+}
+
+.navbar a{
+    font-size: 1rem;
+    padding:10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #696666;
+ 
+   
+}
+
+.navbar a:hover{
+    color:#000;
+}
+
+#menu-icon{
+    display: none;
+ font-size: 2rem;
+cursor:pointer;
+}
+
+/*section*/
+section{
+    padding: 50px 10%;
+}
+
+/* Info */
+
+.info .texto{
+    padding-top: 200px;
+}
+
+.texto h1{
+    text-align: center;
+    color: #817d7d;
+    font-size: 90px;
+}
+.texto h3{
+    padding-top: 30px;
+    
+    font-size: 20px;
+}
+article{
+    padding-top: 30px;
+    font-size: 20px;
+}
+article h3{
+    padding-left: 50px;
+}
+
+/*Menu*/
+
+.heading{
+    text-align: center;
+}
+
+.heading h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-top:1rem;
+   
+ 
+}
+.container-borde{
+    border: 1px solid;
+    padding: 40px 6%;
+}
+
+.comida{
+    flex: 1 1 10rem;
+}
+.bebida{
+    flex: 1 1 10rem;
+}
+.categoria{
+    padding: 10px;
+    color:#000;
+}
+.menu{
+   padding: 50px 20%;
+}
+
+/*Fotos*/
+
+.fotos-restaurant{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    gap:1rem;
+}
+.foto{
+    position: relative;
+    box-shadow: 1px 4px 4px ;
+}
+.foto img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Acerca de */
+
+.acerca-de{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.acerca-de-foto img{
+width: 80%;
+border-radius: 10px;
+object-fit:contain ;
+}
+
+.sobre-texto{
+    font-size: 30px;
+}
+.sobre-texto p{
+    color:#696666;
+}
+
+
+/*ubicacion*/
+
+
+
+/*Copyright*/
+
+.copyright, .diseno{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 8px;
+    padding: 30px;
+}
+
