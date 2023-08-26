@@ -95,6 +95,9 @@ article h3{
 }
 
 /*Menu*/
+.menu{
+    padding: 90px 6%;
+}
 
 .heading{
     text-align: center;
@@ -110,9 +113,10 @@ article h3{
     flex-wrap: wrap;
     gap:1rem;
     margin-top:1rem;
-   
- 
+    padding: 40px 6%;
+    
 }
+
 .container-borde{
     border: 1px solid;
     padding: 40px 6%;
@@ -127,9 +131,15 @@ article h3{
 .categoria{
     padding: 10px;
     color:#000;
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 .menu{
    padding: 50px 20%;
+}
+
+.nombre{
+    font-weight: 900;
 }
 
 /*Fotos*/
