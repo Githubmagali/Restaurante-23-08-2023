@@ -173,8 +173,22 @@ object-fit:contain ;
 
 /*ubicacion*/
 
+.ubicacion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
 
+.direccion{
+    width: 80%;
+    object-fit: contain;
+    margin-top: 90px;
+}
 
+.direccion h3{
+    text-align: center;
+    padding: 20px;
+}
 /*Copyright*/
 
 .copyright, .diseno{
